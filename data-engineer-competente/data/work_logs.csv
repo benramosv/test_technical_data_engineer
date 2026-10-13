@@ -1,0 +1,7 @@
+work_log_id,project_id,employee_id,work_date,hours,work_type
+W001,P100,E01,2024-03-01,8,delivery
+W002,P100,E02,2024-03-01,7.5,delivery
+W003,P200,E03,2024-03-02,9,support
+W003,P200,E03,2024-03-02,9,support
+W004,P300,E04,2024-03-03,-2,delivery
+W005,P999,E05,2024-03-04,6,delivery

@@ -1,0 +1,12 @@
+name: daily-data-engineering-etl
+
+# Candidate: convert this outline into a Databricks Workflow definition and
+# document the required parameters, retries and task dependencies.
+tasks:
+  - task_key: ingestion
+  - task_key: silver
+    depends_on: [ingestion]
+  - task_key: gold
+    depends_on: [silver]
+  - task_key: data_quality
+    depends_on: [gold]

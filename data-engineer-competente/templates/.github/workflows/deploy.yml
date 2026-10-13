@@ -1,0 +1,18 @@
+name: deploy-data-engineering
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        required: true
+        type: choice
+        options: [dev, prod]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate deployment approach
+        run: echo "Candidate must implement deployment with secretless or scoped authentication"

@@ -1,0 +1,14 @@
+name: daily-data-engineering-etl
+
+# Candidate: convert this outline to a portable Databricks Workflow definition.
+# It must include parameters, retries, timeout, notifications and task dependencies.
+parameters:
+  process_date: "<yyyy-mm-dd>"
+tasks:
+  - task_key: incremental_bronze
+  - task_key: silver_scd2
+    depends_on: [incremental_bronze]
+  - task_key: gold_metrics
+    depends_on: [silver_scd2]
+  - task_key: quality_observability
+    depends_on: [gold_metrics]

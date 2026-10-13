@@ -1,0 +1,5 @@
+[
+  {"incident_id":"I001","customer_id":"C001","project_id":"P100","opened_at":"2024-03-01T08:00:00Z","resolved_at":"2024-03-01T12:00:00Z","severity":"high","status":"resolved"},
+  {"incident_id":"I002","customer_id":"C002","project_id":"P200","opened_at":"2024-03-02T10:00:00Z","resolved_at":null,"severity":"medium","status":"open"},
+  {"incident_id":"I003","customer_id":"C999","project_id":"P200","opened_at":"2024-03-03T10:00:00Z","resolved_at":"2024-03-02T10:00:00Z","severity":"low","status":"resolved"}
+]
