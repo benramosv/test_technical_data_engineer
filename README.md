@@ -147,7 +147,6 @@ nivel suficiente de incrementalidad, calidad de datos y manejo de fallos.
 ```text
 .
 ├── README.md
-├── README-DATA-ENGINEER.md
 ├── 02-data-engineer-principiante-avanzado/
 │   ├── README.md
 │   ├── RUBRICA-EVALUACION.md
