@@ -1,8 +1,8 @@
-# Evaluación Data Engineer — Senior
+# Evaluación Data Engineer — Competente
 
 ## Propósito
 
-Esta evaluación práctica está diseñada para un Data Engineer Senior. Evalúa la
+Esta evaluación práctica está diseñada para un Data Engineer Competente. Evalúa la
 capacidad de diseñar y entregar una solución de datos preparada para producción
 con **Databricks, PySpark, Spark SQL, Delta Lake, Workflows, Notebooks y GitHub**.
 
@@ -186,4 +186,4 @@ El evaluador puede introducir una modificación en vivo y preguntar:
 
 Para aprobar, el candidato debe demostrar dominio suficiente de incrementalidad,
 calidad de datos y manejo de fallos. Una solución con transformaciones correctas
-pero sin estrategia operacional no alcanza el nivel Senior.
+pero sin estrategia operacional no alcanza el nivel Competente.

@@ -1,7 +1,7 @@
 # Evaluaciones Técnicas Data Engineer
 
-Guía de evaluación práctica para los perfiles **Data Engineer Semi Senior** y
-**Data Engineer Senior** de Kyndryl.
+Guía de evaluación práctica para los perfiles **Data Engineer Principiante Avanzado** y
+**Data Engineer Competente** de Kyndryl.
 
 Las evaluaciones están diseñadas para medir la capacidad de construir, validar y
 operar pipelines de datos usando Databricks, PySpark, Spark SQL, ETL, Delta Lake,
@@ -11,16 +11,16 @@ Workflows, Notebooks y GitHub.
 
 | Nivel | Evaluación | Duración | Enfoque |
 |---|---|---:|---|
-| Semi Senior | [04-data-engineer-semi-senior/](./04-data-engineer-semi-senior/) | 3.5 horas | Pipeline ETL completo, calidad y orquestación |
-| Senior | [05-data-engineer-senior/](./05-data-engineer-senior/) | 3.5 horas | Incrementalidad, SCD Tipo 2, rendimiento y operación |
+| Principiante Avanzado | [02-data-engineer-principiante-avanzado/](./02-data-engineer-principiante-avanzado/) | 3.5 horas | Pipeline ETL completo, calidad y orquestación |
+| Competente | [03-data-engineer-competente/](./03-data-engineer-competente/) | 3.5 horas | Incrementalidad, SCD Tipo 2, rendimiento y operación |
 
 Cada evaluación incluye sus propias instrucciones, dataset, reglas de negocio,
 templates y rúbrica:
 
-- [Evaluación Semi Senior](./04-data-engineer-semi-senior/README.md)
-- [Rúbrica Semi Senior](./04-data-engineer-semi-senior/RUBRICA-EVALUACION.md)
-- [Evaluación Senior](./05-data-engineer-senior/README.md)
-- [Rúbrica Senior](./05-data-engineer-senior/RUBRICA-EVALUACION.md)
+- [Evaluación Principiante Avanzado](./02-data-engineer-principiante-avanzado/README.md)
+- [Rúbrica Principiante Avanzado](./02-data-engineer-principiante-avanzado/RUBRICA-EVALUACION.md)
+- [Evaluación Competente](./03-data-engineer-competente/README.md)
+- [Rúbrica Competente](./03-data-engineer-competente/RUBRICA-EVALUACION.md)
 
 ## Objetivo de la evaluación
 
@@ -120,12 +120,12 @@ La evaluación considera tanto el resultado como el criterio de ingeniería:
 | 50–69 | En desarrollo |
 | Menor de 50 | No aprobado |
 
-Para el nivel Senior, además del puntaje mínimo, el candidato debe demostrar un
+Para el nivel Competente, además del puntaje mínimo, el candidato debe demostrar un
 nivel suficiente de incrementalidad, calidad de datos y manejo de fallos.
 
 ## Preguntas de revisión sugeridas
 
-### Semi Senior
+### Principiante Avanzado
 
 - ¿Por qué separaste Bronze, Silver y Gold?
 - ¿Cómo evitas duplicados en una segunda ejecución?
@@ -133,7 +133,7 @@ nivel suficiente de incrementalidad, calidad de datos y manejo de fallos.
 - ¿Cuándo usarías PySpark y cuándo Spark SQL?
 - ¿Qué regla de calidad consideras crítica?
 
-### Senior
+### Competente
 
 - ¿Cómo harías el pipeline idempotente?
 - ¿Cómo manejarías datos que llegan tarde?
@@ -148,13 +148,13 @@ nivel suficiente de incrementalidad, calidad de datos y manejo de fallos.
 .
 ├── README.md
 ├── README-DATA-ENGINEER.md
-├── 04-data-engineer-semi-senior/
+├── 02-data-engineer-principiante-avanzado/
 │   ├── README.md
 │   ├── RUBRICA-EVALUACION.md
 │   ├── data/
 │   ├── requirements/
 │   └── templates/
-└── 05-data-engineer-senior/
+└── 03-data-engineer-competente/
     ├── README.md
     ├── RUBRICA-EVALUACION.md
     ├── data/

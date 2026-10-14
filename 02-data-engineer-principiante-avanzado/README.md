@@ -1,8 +1,8 @@
-# Evaluación Data Engineer — Semi Senior
+# Evaluación Data Engineer — Principiante Avanzado
 
 ## Propósito
 
-Esta evaluación práctica está diseñada para candidatos Data Engineer Semi Senior.
+Esta evaluación práctica está diseñada para candidatos Data Engineer Principiante Avanzado.
 Evalúa la capacidad de construir un pipeline ETL reproducible sobre **Databricks,
 PySpark, Spark SQL, Delta Lake, Workflows, Notebooks y GitHub**.
 

@@ -1,4 +1,4 @@
-# Hoja de evaluación — Data Engineer Senior
+# Hoja de evaluación — Data Engineer Competente
 
 ## Candidato
 
@@ -65,7 +65,7 @@
 - [ ] Aprobado — 70 a 89
 - [ ] Sobresaliente — 90 a 100
 
-### Condiciones de aprobación Senior
+### Condiciones de aprobación Competente
 
 - [ ] Demuestra incrementalidad e idempotencia.
 - [ ] Explica controles de calidad y manejo de fallos.
@@ -88,7 +88,7 @@
 
 ```
 
-- [ ] Apto para Data Engineer Senior
+- [ ] Apto para Data Engineer Competente
 - [ ] Apto con plan de desarrollo
 - [ ] Repetir evaluación
 - [ ] No apto para el rol

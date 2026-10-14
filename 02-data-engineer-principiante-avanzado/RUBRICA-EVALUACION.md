@@ -1,4 +1,4 @@
-# Hoja de evaluación — Data Engineer Semi Senior
+# Hoja de evaluación — Data Engineer Principiante Avanzado
 
 ## Candidato
 
@@ -80,7 +80,7 @@ no distingue datos válidos de inválidos o no puede explicar cómo evitar dupli
 
 ```
 
-- [ ] Apto para Data Engineer Semi Senior
+- [ ] Apto para Data Engineer Principiante Avanzado
 - [ ] Apto con plan de desarrollo
 - [ ] Repetir evaluación
 - [ ] No apto para el rol
